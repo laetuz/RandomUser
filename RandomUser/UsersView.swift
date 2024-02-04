@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct UsersView: View {
+    @StateObject var userData = UserData()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("Raw JSON Data: ")
+                ScrollView {
+                    Text(userData.users)
+                }
+            }
+            .padding()
+            .navigationTitle("Random Users")
+        }
     }
 }
 
