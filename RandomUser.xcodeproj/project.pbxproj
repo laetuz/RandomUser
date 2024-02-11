@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874A2C322B795993009AA1FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A2C312B795993009AA1FC /* User.swift */; };
 		878394452B6FE894008DA215 /* RandomUserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878394442B6FE894008DA215 /* RandomUserApp.swift */; };
 		878394472B6FE894008DA215 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878394462B6FE894008DA215 /* ContentView.swift */; };
 		878394492B6FE895008DA215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878394482B6FE895008DA215 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		874A2C312B795993009AA1FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		878394412B6FE894008DA215 /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878394442B6FE894008DA215 /* RandomUserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserApp.swift; sourceTree = "<group>"; };
 		878394462B6FE894008DA215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		878394432B6FE894008DA215 /* RandomUser */ = {
 			isa = PBXGroup;
 			children = (
+				874A2C312B795993009AA1FC /* User.swift */,
 				878394532B6FE8DF008DA215 /* UserFetchingClient.swift */,
 				878394442B6FE894008DA215 /* RandomUserApp.swift */,
 				878394462B6FE894008DA215 /* ContentView.swift */,
@@ -150,6 +153,7 @@
 			files = (
 				878394582B6FF06B008DA215 /* UsersView.swift in Sources */,
 				878394472B6FE894008DA215 /* ContentView.swift in Sources */,
+				874A2C322B795993009AA1FC /* User.swift in Sources */,
 				878394452B6FE894008DA215 /* RandomUserApp.swift in Sources */,
 				878394562B6FED89008DA215 /* UserData.swift in Sources */,
 				878394542B6FE8DF008DA215 /* UserFetchingClient.swift in Sources */,
